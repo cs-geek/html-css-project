@@ -1,0 +1,96 @@
+/* ====== Background Image ====== */
+
+.main-image {
+  background-image: url(../img/index/main-back-image.jpg);
+  background-size: cover;
+  width: 100%;
+  max-height: 100vh;
+}
+.main-image .inner {
+  background-color: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 200px 0;
+}
+.main-image .inner h1 {
+  font-size: 4rem;
+  color: rgba(169,69,20,1);
+  color: rgba(120,180,240,1);
+}
+.main-image .inner h4 {
+  font-size: 2.8rem;
+  color: rgba(210,210,210,1);
+}
+
+/* ====== Small Sections ====== */
+
+.music-class, .purchase {
+  display: block;
+  text-align: center;
+  padding: 60px 0;
+}
+.music-class p, .purchase p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: ;
+}
+.music-class {
+  background-image: linear-gradient(to right, rgba(120,180,240,0.8), rgba(120,180,240,0.4));
+}
+.purchase {
+  background-image: linear-gradient(to left, rgba(120,180,240,0.8), rgba(120,180,240,0.4));
+}
+/*
+.music-class {
+  background-color: rgba(102,140,156,1);
+}
+
+.purchase {
+  background-color: rgba(210,240,210,1);
+}
+*/
+.music-class p:nth-child(1) {}
+.music-class p:nth-child(2) {}
+.music-class p:nth-child(3) {}
+.music-class p:nth-child(4) {}
+
+.purchase p:nth-child(1) {}
+.purchase p:nth-child(2) {}
+.purchase p:nth-child(3) {}
+
+.music-class > p > a , .purchase > p > a {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: rgba(250,250,250,1);
+  background-color: rgba(129,49,10,1);
+  border: 1px solid rgba(102, 18, 13,1);
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: all 0.6s ease-in;
+}
+.music-class > p > a:hover , .purchase > p > a:hover {
+  background-color: rgba(230,230,230,0.8);
+  color: rgba(102, 18, 13,1);
+}
+
+.back-middle-image {
+  background-image: url(../img/index/down-back-image.jpg);
+  width: 100%;
+  min-height: 50vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.back-middle-image .inner {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100vw;
+  padding: 130px;
+}
+
+.back-middle-image .inner h2 {
+  font-size: 4rem;
+  color: rgba(225,225,255,1);
+}

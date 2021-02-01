@@ -1,0 +1,19 @@
+#contents {
+  padding: 60px 100px;
+}
+
+#contents h2 {
+  font-size: 1.8rem;
+  line-height: 2;
+  color: rgba(1,5,9,1);
+}
+#contents h3 {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: rgba(34,38,42,1);
+}
+#contents p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(23,28,33,1);
+}

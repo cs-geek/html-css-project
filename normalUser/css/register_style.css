@@ -1,0 +1,49 @@
+#contents {
+  padding: 60px 100px;
+}
+
+.register {
+  display: block;
+  width: 30%;
+  padding: 20px;
+  margin: 0px auto;
+  border: 1px solid #111;
+  border-radius: 10px;
+}
+
+.register > h3 {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.register form {
+  padding: 15px 0;
+  margin: 10px 0;
+  border-top: 1px solid rgba(56,67,78,0.7);
+  border-bottom: 1px solid rgba(56,67,78,0.7);
+}
+.register form input {
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.register form #submit-btn {
+  color: #efefef;
+  background-color: #3445af;
+}
+.register form #submit-btn:hover {
+  color: rgba(102, 18, 13,1);
+  background-color: #efefef;
+  border: apx solid #344556;
+}
+.register > p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.register > p > a {
+  color: #344556;
+}
+.register > p > a:hover {
+  color: rgba(102, 18, 13,1);
+  text-decoration: underline;
+}

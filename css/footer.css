@@ -1,0 +1,115 @@
+/* Grid View of Footer and its sections */
+footer {
+  display: grid;
+  grid-template-columns: repeat(13,1fr);
+  grid-template-rows: auto;
+  background-color: rgba(45,48,51,1);
+  padding: 40px 0;
+}
+.down-footer {
+  display: grid;
+  grid-template-columns: repeat(13,1fr);
+  grid-template-rows: auto;
+  background-color: rgba(75,78,81,1);
+}
+
+.web {
+  grid-column: 2/6;
+  grid-row: 1/2;
+}
+.main-links {
+  grid-column: 6/10;
+  grid-row: 1/2;
+}
+.social-links {
+  grid-column: 10/14;
+  grid-row: 1/2;
+}
+.copyrights {
+  grid-column: 2/6;
+  grid-row: 1/2;
+  text-align: left;
+}
+.web-designer {
+  grid-column: 6/13;
+  grid-row: 1/2;
+  text-align: right;
+}
+
+/* Individual Styles given to every single section of Footer */
+.web h2 {
+  display: inline-block;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.web h2 span:nth-child(1) {
+  color: #fff;
+}
+.web h2 span:nth-child(2) {
+  color: rgba(120,180,240,1);
+}
+.web p {
+  font-size: 0.9rem;
+  color: rgba(200,210,220,1);
+}
+
+.main-links span {
+  display: block;
+}
+.main-links span a {
+  display: inline-block;
+  font-size: 1rem;
+  color: rgba(230,230,230,1);
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+.main-links span a:hover {
+  color: rgba(120,180,240,1);
+}
+
+.social-links span {
+  display: block;
+  font-size: 1.3rem;
+  color: rgba(200,210,220,1);
+  margin-bottom: 10px;
+}
+.social-links ul {
+  display: block;
+}
+.social-links ul li {
+  display: inline-block;
+}
+.social-links ul li a {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: rgba(220,220,220,1);
+  margin-right: 8px;
+}
+.social-links #fb a:hover {
+  color: rgba(59, 89, 152,1);
+}
+.social-links #tw a:hover {
+  color: rgba(0,172,237,1);
+}
+.social-links #in a:hover {
+  color: rgba(188,42,141,1);
+}
+
+.copyrights p a {
+  font-size: 0.95rem;
+  line-height: 50px;
+  color: rgba(180,200,220,1);
+}
+.copyrights p a:hover {
+  color: rgba();
+}
+.web-designer p {
+  font-size: 0.94rem;
+  line-height: 50px;
+  color: rgba(190,190,190,1);
+}
+.web-designer p span {
+  color: rgba(230,230,230,1);
+}
+

@@ -1,0 +1,129 @@
+<!Doctype html>
+<html>
+<head>
+<title>Music Archive | Let the Music speak</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/header.css">
+<link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/register_style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!-- Contains the header section: website logo, website name, and menu links -->
+<header>
+
+<!-- Header's Upper Section -->
+<div class="upperHeader">
+<div class="webname">
+<h2><span>Music</span><span>Archive</span></h2>
+</div>
+  
+<div class="searchbar">
+<input type="text" id="search" placeholder="Search here....">
+<button type="button" id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+  
+<div class="social">
+<span id="fb"><a href="" title="folow us on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+<span id="tw"><a href="" title="folow us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+<span id="in"><a href="" title="folow us on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+</div>
+</div>
+
+<!-- Header's Lower Section -->
+<div class="lowerHeader">
+<div class="menubar">
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../musicClasses.html">Music Classes</a></li>
+<li><a href="../musicInstruments.html">Musical Instruments</a></li>
+<li><a href="../about.html">About Us</a></li>
+<li><a href="../contact.html">Contact Us</a></li>
+</ul>
+</div>
+  
+<div class="user">
+<ul>
+<li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
+<li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a></li>
+</ul>
+</div>
+</div>
+
+</header>
+
+
+<!-- Contains the main body of the webpage -->
+<section id="contents">
+  
+<div class="register">
+
+<h3>Register Form</h3>
+  
+<form action="register.php" method="post">
+<input type="text" id="firstName" name="firstName" placeholder="First Name" required><br>
+<input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br>
+<input type="email" id="email" name="email" placeholder="you@example.com" required><br>
+<input type="tel" id="phone" name="phone" placeholder="Contact Number" required><br>
+<input type="password" name="password" id="pass1" placeholder="Create a password"><br>
+<input type="password" name="password" id="pass2" placeholder="Confirm password"><br>
+<label>Gender: </label>
+<input type="radio" name="gender" id="male"><label> Male</label>
+<input type="radio" name="gender" id="female"><label> Female</label>
+<input type="radio" name="gender" id="others"><label> Others</label><br>
+<input type="submit" id="submit-btn" value="Register">
+</form>
+  
+<p>Already a User?</p>
+<p><a href="login.html">Login here</a></p>
+
+</div>
+
+</section>
+
+
+<!-- Contains footer of the page -->
+<footer>
+
+<div class="web">
+<h2><span>Music</span><span>Archive</span></h2>
+<p>Copyright &copy; 2019 | All Rights Reserved</p>
+</div>
+  
+<div class="main-links">
+<span><a href="">Home</a></span>
+<span><a href="">Musical Class Registration</a></span>
+<span><a href="">Musical Shop Registration</a></span>
+<span><a href="">Terms & Conditions</a></span>
+</div>
+
+<div class="social-links">
+<span>Follow and Share us on:</span>
+<ul>
+<li id="fb"><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li id="tw"><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+<li id="in"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+
+</footer>
+
+<div class="down-footer">
+  
+<div class="copyrights">
+<p><a href="../extras/copyrights.html" title="Click to see copyright details">Copyrights</a></p>  
+</div>
+  
+<div class="web-designer">
+<p>Website designed by <span>Anmol Kumar Singh</span></p> 
+</div>  
+  
+</div>
+
+</body>
+</html>
